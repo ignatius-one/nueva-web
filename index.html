@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java scrip Topics</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/scrip.css">
+
+    <link rel="shortcut icon" href="./pictures/js.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Karla:wght@200&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+       <div class="titles" id="inicio">
+           <h1>Welcome to java scrip</h1>
+       <p>remember topics about java scrip and proyects</p>
+       <div class="buttonesFlex">
+           <div class="buttones"><a href="./index.html">Menu</a></div>
+           <div class="buttones" id="not"><a href="">Proyects</a></div>
+           <div class="buttones"><a href="./conctac.html">conctac</a></div>
+        </div>
+       </div>
+   </header>
+   <!-- ----------------------------------------------------------------------- -->
+    <div class="containerMayor" >
+        <hr>
+        <h2 class="TopicsScrip">Some Concepts In Javascript </h2>
+        <!-- ----------------------------------------------------------------------- -->
+          <article class="flex">
+    <div class="box"><h2 class="titlesp">Typeof</h2><p>In JavaScript, the typeof operator returns the data type of its operand in the form of a string..<h4>checkout exmaple</h4><pre><code>
+    console.log(typeof 42);
+    expected output:"number"   
+    </code></pre></p></div>
+    <div class="box"><h2  class="titlesp">Objects</h2><p>It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.</p><h4>check example</h4>
+    <pre>
+        <code>
+ class person {
+ constructor(Name, SurName) {
+ this.Name = juan;
+ this.SurName = torres;
+    }}
+        </code>
+    </pre></div>
+    <div class="box"><h2  class="titlesp">Comparison Operators</h2><p>Comparison operators are used in logical statements to determine equality or difference between variables or values</p><h4>check </h4>        
+        <pre>
+            <code>
+==	equal to   x == 8	                        false	
+x == 5                                          true	
+x == "5"                                        true	
+===	equal value and equal type	x === 5	        true	
+x === "5"	                                    false	
+!=	not equal	x != 8	                        true	
+!==	not equal value or not equal type x !== 5	false	
+x !== "5"	                                    true	
+x !== 8	                                        true	
+>	greater than	x > 8	                    false	
+<	less than	x < 8	                        true	
+>=	greater than or equal to x >= 8	            false	
+<=	less than or equal to x <= 8          	    true
+            </code>
+        </pre>
+    </p></div>
+    <div class="box"><h2  class="titlesp">Array</h2><p>JavaScript arrays are used to store multiple values in a single variable.</p><h4>check example</h4>
+        <pre>
+        <code>
+    let vegetales = ['Repollo', 'Nabo', 'Rábano', 'Zanahoria']
+    console.log(vegetales)
+        </code>
+    </pre></div>
+</article>
+        <hr>
+        <h2 class="TopicsScrip">Some Loops in Java Scrip </h2>
+        <!-- ----------------------------------------------------------------------- -->
+          <article class="flex">
+    <div class="box"><h2  class="titlesp">For </h2>
+        <p>for is loops and executed multiple conditional for(var=value;conditional;result){code}</p>
+    <pre><code>
+   for(let contar=0;contar<3; contar++){
+ console.log(`it repeat ${contar}`);
+    }
+    </code></pre></p></div>
+    <div class="box"><h2  class="titlesp">Switch</h2><p>Use switch to specify many alternative blocks of code to be executed</p><h4>check example</h4>
+    <pre>
+        <code>
+    let numeroxd = 4
+    switch (numeroxd) {
+    case 1:
+    numeroxd ='the case is 1'
+    break;
+    default:
+    numeroxd = 'no found' 
+        }   
+        </code>
+    </pre></div>
+    <div class="box"><h2  class="titlesp">While</h2><p>
+       Loops can execute a block of code as long as a specified condition is true.</p>
+        <h4>example </h4>
+        <pre>
+            <code>
+    let varW = 0; 
+    while (varW < 3) {
+    console.log(varW);
+    varW++;
+    }
+            </code>
+        </pre>
+    </p></div>
+    <div class="box"><h2  class="titlesp">Do While</h2><p>The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.</p><h4>check estructure</h4>
+        <pre>
+        <code>
+    let varW2 = 0;
+    do {
+    console.log(varW2);
+    varW2++;
+    }while (varW2<3) {
+    console.log('the ende run');
+    }
+        </code>
+    </pre></div>
+</article>
+        <hr>
+        <h2 class="TopicsScrip">Some Concepts In Javascript  </h2>
+        <!-- ----------------------------------------------------------------------- -->
+          <article class="flex">
+    <div class="box"><h2  class="titlesp">If and Else </h2>
+        <ul>
+        <li>Use if to specify a block of code to be executed if a specified condition is true</li>
+        <li>
+ Use else to specify a block of code to be executed if the same condition is false
+        </li>
+<li>
+    Use else if to specify a new condition to test, if the first condition is false
+</li>
+    </ul>
+        
+        
+        <pre><code>
+ for(let contar=0;contar<3; contar++){
+ console.log(`it repeat ${contar}`);
+    }
+    </code></pre></p></div>
+    <div class="box"><h2  class="titlesp">Classes</h2><p>Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.</p><h4>check example</h4>
+    <pre>
+        <code>
+    class Rectangle {
+    constructor(height, width) {
+    this.height = height;
+    this.width = width;
+    }
+    }
+        </code>
+    </pre></div>
+    <div class="box"><h2  class="titlesp">Promise</h2><p>
+        A Promise is an object representing the eventual completion or failure of an asynchronous operation.
+    </p>
+        <h4>example </h4>
+        <pre>
+            <code>
+    function successCallback(result) {
+    console.log("Audio file ready at URL: " + result);
+    }
+
+    function failureCallback(error) {
+    console.error("Error generating audio file: " + error);
+    }
+
+    createAudioFileAsync(audioSettings, successCallback, failureCallback);
+            </code>
+        </pre>
+    </p></div>
+    <div class="box"><h2  class="titlesp">Function</h2><p>A JavaScript function is a block of code designed to perform a particular task.
+
+A JavaScript function is executed when "something" invokes it (calls it). 
+</p><h4>check estructure</h4>
+        <pre>
+        <code>
+   function myFun(n,n2){
+ console.log(n + n2 );
+    }
+    myFun(34,56)
+        </code>
+    </pre></div>
+</article>
+
+    <article>       
+    </article>
+   
+    
+</div>
+<footer class="footer">
+    <hr>
+<div class="contenedor">
+    <div class="sectionF">
+    <a href="#inicio" class="moves"><h6>Inicio</h6></a>
+    <ul> 
+        <li>Course about language Html</li>
+        <li>Course about language Html</li>
+        <li>Course about language Html</li>
+        <li>Course about language Html</li>
+    </ul>
+</div>
+<div class="sectionF">
+    <a href="#" class="moves"><h6>Contac us</h6></a>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam </li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste </li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Verit</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt </li>
+    </ul>
+</div>
+<div class="sectionF">
+    <a class="moves" href="#"><h6>About us</h6></a>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam </li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste </li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Verit</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt </li>
+    </ul>
+</div>
+<p class="row">O</p>
+</div>
+<h2 class="socialmedia">Follow us 
+    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.facebook.com"><i class="fab fa-facebook" target="_blank"></i></a> <a href="https://www.twitch.tv" target="_blank"><i class="fab fa-twitch"></i></a> </h2>
+<div class="Time">we are in year <span id="dateyear">2020</span></div>
+</footer>
+    
+    <script src="./scrip/sweetalert2.all.min.js"></script>
+    <script src="./scrip/scrollreveal.js"></script>
+    <script src="./scrip/scripProyect.js"></script>
+</body>
+</html>
