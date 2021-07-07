@@ -38,14 +38,16 @@ body::-webkit-scrollbar-track {
 
 
 header{
-    width: 100%;
-    height: 344px;
-    border-bottom-left-radius: 221px;
-    border-bottom-right-radius: 221px;
+
+     width: 100%;
+    height: 29rem;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
     background-image: url('https://i1.wp.com/ionilancer.com/wp-content/uploads/2020/04/javascript-3.jpg');
     background-size: contain;
     background-attachment: fixed;
     position: relative;
+    
     
 }
 header::before{
@@ -55,10 +57,11 @@ header::before{
     right: 0;
     left: 0;
     bottom: 0;
-    border-bottom-left-radius: 221px;
-    border-bottom-right-radius: 221px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
     background-color: rgba(0, 0, 0, .5);
 }
+
 .TopicsScrip{
     margin: 7px;
     text-align: center;
@@ -69,7 +72,6 @@ header::before{
 .titles{
     position: relative;
     top:108px ;
-    /* left: 400px; */
     margin: 0 auto;
     width: 600px;
     height: 200px;
@@ -246,6 +248,8 @@ hr{
 .hello{
     color: var(--blackIg);
 }
+
+
 @font-face {
     font-family: 'iconos';
     src: url('/fuentes-xd/HighSchoolNotebook-Regular.ttf');
@@ -265,11 +269,224 @@ hr{
     --colorJs:#f7df1e;
 }
 
-@media (max-width:500px){
-   .titles{
-       left: -33px;
-   }
+
+@media screen and (max-width:500px){
+   header{
+    width: 100%;
+    height: 29rem;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-image: url('https://i1.wp.com/ionilancer.com/wp-content/uploads/2020/04/javascript-3.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    
 }
+/* header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: rgba(0, 0, 0, .5);
+} */
+
+.TopicsScrip{
+    margin: 7px;
+    text-align: center;
+    font-family: 'titles';
+    letter-spacing: 6px;
+}
+    
+.titles{
+    position: relative;
+    top:50% ;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+header h1{
+    position: absolute; 
+    top:auto;
+    left:120px; 
+    color: var(--whiteIg);
+    font-family: 'titles';
+    letter-spacing: 4px;
+}
+header p{
+    position: absolute;
+    top:34%;
+    margin: 0 auto;
+    color: var(--whiteIg);
+}
+.titlesp{
+    
+    font-family: 'titles';
+    letter-spacing: 2px;
+}
+.buttonesFlex{
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    top:50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buttones{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #f7df1e;
+}
+.buttones a{
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-family: 'titles';
+}
+.buttones:hover{
+    filter: opacity(80%);
+}
+
+.containerMayor{
+    width: 90%;
+    top: 19px;
+    position: relative;
+    margin:0 auto ;
+}
+hr{
+    color: var(--colorJs);
+    
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    height: 430px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--colorJs);
+    color: var(--blackIg);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+}
+pre{
+    margin-top: 12px;
+    width: 235px;
+    height: 157px;
+    background-color: #000000;
+    border: 5px solid var(--redIg) ;
+    border-radius: 19px;
+    overflow: auto;
+}
+pre::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+pre::-webkit-scrollbar:vertical {
+    width:4px;
+}
+
+pre::-webkit-scrollbar-button:increment,pre::-webkit-scrollbar-button {
+    display: none;
+} 
+
+pre::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+pre::-webkit-scrollbar-thumb {
+    background-color: var(--redIg);
+    border-radius: 50px;
+}
+
+pre::-webkit-scrollbar-track {
+    border-radius: 100px;  
+}
+
+
+
+code{
+    color: wheat;
+}
+.footer{
+    margin-top: 45px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blackIg);
+    color: var(--whiteIg);
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    width: 90%;
+    height:100px;
+    margin: 12px auto 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor ul{
+    list-style: none;
+}
+.sectionF h6{
+    font-size: 19px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.socialmedia{
+    margin-top: 15px;
+    text-align: center;
+}
+.socialmedia i{
+    margin-left: 7px;
+}
+hr{
+    height: 12px;
+    border-radius: 12px;
+}
+.row{
+    font-family: 'iconos';
+    font-size: 100px;
+    color: var(--whiteIg);
+}
+.row:hover{
+    font-size: 110px;
+    color:rgb(25, 173, 25) ;
+}
+.Time {
+    margin-top: 5px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.socialmedia a{
+    color: var(--whiteIg);
+}
+.moves{
+    text-decoration: none;
+    color: var(--whiteIg);
+}
+.hello{
+    color: var(--blackIg);
+}
+
+    
+}
+
+ 
+
+
+
 
 @media (max-width:1290px) {
 header{
@@ -295,29 +512,32 @@ header::before{
     background-color: rgba(0, 0, 0, .5);
 }
 header h1{
-    left:117px;
+    margin: 0 auto;
+    top:-4em;
     font-size: 26px; 
 }
 header p{
-    left:112px;
+    display: none;
 }
 .titles{
-    position: relative;
-    top:108px ;
-    width: 600px;
-    height: 200px;
+
+     position: relative;
+    top:50% ;
+    width: 100%;
+    height: auto;
     background-color: transparent;
 }
 
     .buttonesFlex{
-        width: 98px;
-        position: absolute;
-        background-color: transparent;
-        top:82px;
-        left:217px;  
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+
+        width: 100%;
+    position: absolute;
+    background-color: transparent;
+    top:50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .buttones{
     padding: 12px;
@@ -356,4 +576,4 @@ pre{
     justify-content: space-between;
 }
     
-}
+} 
