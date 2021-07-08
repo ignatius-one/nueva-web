@@ -130,7 +130,7 @@ header p{
     font-family: 'Times New Roman', Times, serif;
 }
 .contenedor{
-    width: 90%;
+    width: 60%;
     height:100px;
     margin: 12px auto 0;
     display: flex;
@@ -340,7 +340,7 @@ header p{
     font-family: 'Times New Roman', Times, serif;
 }
 .contenedor{
-    width: 90%;
+    width: 60%;
     /* height:100px; */
     margin: 12px auto 0;
     display: flex;
