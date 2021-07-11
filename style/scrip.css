@@ -186,6 +186,7 @@ pre::-webkit-scrollbar-track {
 code{
     color: wheat;
 }
+
 .footer{
     margin-top: 45px;
     width: 100%;
@@ -273,26 +274,26 @@ hr{
 @media screen and (max-width:500px){
    header{
     width: 100%;
-    height: 29rem;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    background-image: url('https://i1.wp.com/ionilancer.com/wp-content/uploads/2020/04/javascript-3.jpg');
+    height: 371px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url(cup-js.jpg);
     background-size: contain;
     background-attachment: fixed;
     position: relative;
     
 }
-/* header::before{
+header::before{
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     background-color: rgba(0, 0, 0, .5);
-} */
+}
 
 .TopicsScrip{
     margin: 7px;
@@ -492,12 +493,11 @@ hr{
 header{
     width: 100%;
     height: 371px;
-    border-bottom-left-radius: 194px;
-    border-bottom-right-radius: 194px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     background-size: round;
     background-repeat: repeat;
-    -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 12% 100%);
-    clip-path: polygon(0 0, 100% 0, 88% 100%, 12% 100%);
+   
 }
 
 header::before{
@@ -507,8 +507,8 @@ header::before{
     right: 0;
     left: 0;
     bottom: 0;
-    border-bottom-left-radius: 194px;
-    border-bottom-right-radius: 194px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     background-color: rgba(0, 0, 0, .5);
 }
 header h1{
@@ -519,6 +519,10 @@ header h1{
 header p{
     display: none;
 }
+/* .flex-title{
+    width:100%;
+    display:flex;
+} */
 .titles{
 
      position: relative;
