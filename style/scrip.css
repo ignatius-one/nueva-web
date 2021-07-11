@@ -43,7 +43,7 @@ header{
     height: 29rem;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
-    background-image: url('https://i1.wp.com/ionilancer.com/wp-content/uploads/2020/04/javascript-3.jpg');
+    background-image: url(cup-js.jpg);
     background-size: contain;
     background-attachment: fixed;
     position: relative;
@@ -252,15 +252,15 @@ hr{
 
 @font-face {
     font-family: 'iconos';
-    src: url('/fuentes-xd/HighSchoolNotebook-Regular.ttf');
+    src: url(HighSchoolNotebook-Regular.ttf);
 }
 @font-face {
     font-family: 'titles';
-    src: url('/fuentes-xd/titles.otf');
+    src: url(latters.ttf);
 }
 @font-face {
     font-family: 'latter';
-    src: url('/fuentes-xd/latters.ttf');
+    src: url(titles.otf);
 }
 :root{
     --whiteIg:#e7e5e4;
